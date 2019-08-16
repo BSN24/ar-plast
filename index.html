@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?ver=3.0">
 </head>
 
 <body>
@@ -18,9 +18,15 @@
         <!--Start page-header-->
         <header class="page-header">
             <div class="page-header__inner container">
-                <a class="page-header__logo" href="/">
-                    <img src="img/main-logo.png" alt="Ар-Пласт">
-                </a>
+                <div class="page-header__left">
+                    <a class="page-header__logo" href="/">
+                        <img src="img/main-logo.png" alt="Ар-Пласт">
+                    </a>
+                    <div class="page-header__hamburger">
+                        <button class="hamburger-btn" type="button"><span></span>
+                        </button>
+                    </div>
+                </div>
                 <nav class="page-header__nav top-nav">
                     <ul class="top-nav__list">
                         <li class="top-nav__item"><a class="top-nav__link" href="javascript:void(0);">О компании</a>
@@ -68,6 +74,39 @@
                         </li>
                     </ul>
                 </div>
+            </nav>
+            <nav class="mobile-nav">
+                <button class="mobile-nav__btn" type="button"></button>
+                <ul class="mobile-nav__list">
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">О компании</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">Сотрудничество</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">Новости</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">Контакты</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">новинки</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">вёдра</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">тазы</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">детские товары</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">мебель</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">баки</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">кухня</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">корзины</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">Кашпо</a>
+                    </li>
+                    <li class="mobile-nav__item"><a class="mobile-nav__link" href="javascript:void(0);">прочие товары</a>
+                    </li>
+                </ul>
             </nav>
         </header>
         <!--End page-header-->
@@ -117,7 +156,7 @@
                                     <li class="product-card__dots-item owl-dot bg-green" role="button" tabindex="0"></li>
                                     <li class="product-card__dots-item owl-dot bg-red" role="button" tabindex="0"></li>
                                     <li class="product-card__dots-item owl-dot bg-violet" role="button" tabindex="0"></li>
-                                    <li class="product-card__dots-item owl-dot bg-grey" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-gray" role="button" tabindex="0"></li>
                                 </ul>
                             </div><a class="product-card__link" href="javascript:void(0);">Ведро Огородное 10 л</a>
                         </div>
@@ -136,4 +175,123 @@
                                     <li class="product-card__slider-item">
                                         <img src="img/products/2.png" alt="Кресло малое">
                                     </li>
-                      
+                                </ul>
+                                <ul class="product-card__dots owl-dots">
+                                    <li class="product-card__dots-item owl-dot bg-green" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-red" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-violet" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-gray" role="button" tabindex="0"></li>
+                                </ul>
+                            </div><a class="product-card__link" href="javascript:void(0);">Кресло малое</a>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-card__wrap">
+                                <ul class="product-card__slider owl-carousel">
+                                    <li class="product-card__slider-item">
+                                        <img src="img/products/3.png" alt="Комод Плетёнка">
+                                    </li>
+                                    <li class="product-card__slider-item">
+                                        <img src="img/products/3.png" alt="Комод Плетёнка">
+                                    </li>
+                                    <li class="product-card__slider-item">
+                                        <img src="img/products/3.png" alt="Комод Плетёнка">
+                                    </li>
+                                    <li class="product-card__slider-item">
+                                        <img src="img/products/3.png" alt="Комод Плетёнка">
+                                    </li>
+                                </ul>
+                                <ul class="product-card__dots owl-dots">
+                                    <li class="product-card__dots-item owl-dot bg-green" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-red" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-violet" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-gray" role="button" tabindex="0"></li>
+                                </ul>
+                            </div><a class="product-card__link" href="javascript:void(0);">Комод Плетёнка</a>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-card__wrap">
+                                <ul class="product-card__slider owl-carousel">
+                                    <li class="product-card__slider-item">
+                                        <img src="img/products/4.png" alt="Миска-дуршлаг 2,5 л">
+                                    </li>
+                                    <li class="product-card__slider-item">
+                                        <img src="img/products/4.png" alt="Миска-дуршлаг 2,5 л">
+                                    </li>
+                                    <li class="product-card__slider-item">
+                                        <img src="img/products/4.png" alt="Миска-дуршлаг 2,5 л">
+                                    </li>
+                                    <li class="product-card__slider-item">
+                                        <img src="img/products/4.png" alt="Миска-дуршлаг 2,5 л">
+                                    </li>
+                                </ul>
+                                <ul class="product-card__dots owl-dots">
+                                    <li class="product-card__dots-item owl-dot bg-green" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-red" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-violet" role="button" tabindex="0"></li>
+                                    <li class="product-card__dots-item owl-dot bg-gray" role="button" tabindex="0"></li>
+                                </ul>
+                            </div><a class="product-card__link" href="javascript:void(0);">Миска-дуршлаг 2,5 л</a>
+                        </div>
+                    </div><a class="popular-products__link" href="javascript:void(0);">Перейти в каталог</a>
+                </div>
+            </section>
+            <!--End popular-products-->
+            <!--Start about-->
+            <section class="about">
+                <div class="about__inner container">
+                    <div class="heading">
+                        <h2 class="heading__title">О нас</h2>
+                    </div>
+                    <div class="about__content">
+                        <p>Компания "Ар-Пласт" была образована в 2002 году, и за свою историю выросла из маленькой фирмы в крупное производство, где используются современное оборудование известных производителей и сырьё ведущих поставщиков. Сегодня мы предлагаем
+                            своим клиентам всевозможные изделия из пластмассы, а именно: баки, вёдра, тазы, кашпо, ПЭТ банки, а также другие изделия хозяйственного назначения. Ассортимент компании постоянно расширяется и обновляется, чему способствует
+                            непрерывный мониторинг ситуации на рынке, который помогает отслеживать группы наиболее востребованных товаров. Мы используем экологически чистое сырьё и красители, предназначенные для контакта с пищевыми продуктами. Контроль
+                            качества за продукцией, которую мы предлагаем покупателям, осуществляется на каждом этапе производственного процесса, что гарантирует добросовестное выполнение всех необходимых стандартов производства.</p>
+                        <p>Использование компанией «Ар-Пласт» современного экологичного и высокотехнологичного оборудования, модернизация производственной оснастки позволяет нам выпускать качественную, востребованную покупателями современную продукцию. Ещё
+                            один важный принцип «Ар-Пласт» — гибкая ценовая политика. Несмотря на нестабильную экономическую ситуацию на рынке, наше предприятие держит цены на продукцию на приемлемом уровне. За годы работы мы зарекомендовали себя как
+                            надежное предприятие, в котором работают профессионалы своего дела, честно и достойно выполняющие свои обязанности.</p>
+                        <p>Надеемся, что большой ассортимент и порядочность в партнерских отношениях сделает наше с Вами сотрудничество полезным и выгодным.</p>
+                    </div>
+                </div>
+            </section>
+            <!--End about-->
+        </main>
+        <!--End page-content-->
+        <!--Start page-footer-->
+        <footer class="page-footer">
+            <div class="page-footer__inner container">
+                <div class="page-footer__left">
+                    <a class="page-footer__logo" href="/">
+                        <img src="img/footer-logo.png" alt="Ар Пласт">
+                    </a>
+                    <p class="page-footer__text">Ар-Пласт — производство и оптовая продажа изделий из пластмассы. г. Лермонтов</p>
+                </div>
+                <nav class="page-footer__nav">
+                    <ul class="page-footer__nav-list">
+                        <li class="page-footer__nav-item"><a href="javascript:void(0);">Сотрудничество</a>
+                        </li>
+                        <li class="page-footer__nav-item"><a href="javascript:void(0);">О компании</a>
+                        </li>
+                        <li class="page-footer__nav-item"><a href="javascript:void(0);">Контакты</a>
+                        </li>
+                        <li class="page-footer__nav-item"><a href="javascript:void(0);">Новости</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="page-footer__contacts"><a class="page-footer__contacts-link" href="tel:+78793539999">+7 (87935) 39999</a><a class="page-footer__contacts-link" href="tel:+79682793000">+7 (968) 279-3000</a><a class="page-footer__contacts-link" href="mailto:ar-plast@bk.ru">ar-plast@bk.ru</a>
+                </div>
+                <div class="page-footer__copy">
+                    <p>© Copyright 2017. Ар-пласт</p>
+                </div>
+            </div>
+        </footer>
+        <!--End page-footer-->
+    </div>
+    <!--End page-wrapper-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/lib/owl.carousel.min.js"></script>
+    <script src="js/lib/svgxuse.min.js" defer></script>
+    <script src="js/main.js?ver=3.0"></script>
+</body>
+
+</html>
