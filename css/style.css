@@ -2103,6 +2103,71 @@ ul {
   margin-left: 41px;
 }
 
+.certificates {
+  padding-top: 12px;
+  padding-bottom: 27px;
+}
+
+.certificates__inner {
+  padding-top: 60px;
+  border-top: 1px solid #dcdcdc;
+}
+
+.certificates__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -40px;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.certificates__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: calc(100% / 3 - 40px);
+  margin-bottom: 65px;
+  margin-left: 40px;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+
+.certificates__icon {
+  max-width: 108px;
+  max-height: 108px;
+  margin-bottom: 23px;
+}
+
+.certificates__text {
+  font-size: 21px;
+  max-width: 250px;
+  margin-bottom: 30px;
+}
+
+.certificates__btn {
+  width: 100%;
+  max-width: 159px;
+  height: 43px;
+  margin-top: auto;
+}
+
 .page-footer {
   margin-top: auto;
   padding-top: 48px;
@@ -2607,6 +2672,16 @@ ul {
     max-width: calc(50% - 15px);
   }
 
+  .certificates__item {
+    max-width: calc(100% / 2 - 40px);
+    margin-bottom: 50px;
+  }
+
+  .certificates__text {
+    font-size: 18px;
+    max-width: 230px;
+  }
+
   .page-footer {
     padding-bottom: 10px;
   }
@@ -2891,6 +2966,14 @@ ul {
     margin-left: 20px;
   }
 
+  .certificates {
+    padding-bottom: 0;
+  }
+
+  .certificates__inner {
+    padding-top: 30px;
+  }
+
   .page-footer__inner {
     flex-direction: column;
     -webkit-box-orient: vertical;
@@ -2945,6 +3028,18 @@ ul {
   .catalog .product-card {
     max-width: 250px;
     margin: 0 auto 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .certificates__list {
+    margin-left: 0;
+  }
+
+  .certificates__item {
+    max-width: 100%;
+    margin-bottom: 40px;
+    margin-left: 0;
   }
 }
 
